@@ -11,7 +11,7 @@ function Header({ setSearchQuery }) {
             <i class="fa-solid fa-book-open-reader"></i> BookTracker
             </h4>
         </Navbar.Brand>
-        <Nav className="me-auto">
+        <Nav className="ms-auto">
           <Nav.Link as={Link} to="/books">
             Book List
           </Nav.Link>

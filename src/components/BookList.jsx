@@ -81,7 +81,7 @@ function BookList({ books, deleteBook, setEditingBook, setSortBy }) {
                     <Card.Subtitle className="mb-2 text-muted">
                       {book.author}
                     </Card.Subtitle>
-                    <div><img style={{width:"70px", height:"50px", marginLeft:"300px"}} src="https://i2.wp.com/cdn.dribbble.com/users/2367833/screenshots/7816190/media/b1aaf5c98510012b56422d1619dc62e8.gif" alt="" /></div>
+                    <img className="w-25" style={{marginLeft:"140px"}}  src="https://i2.wp.com/cdn.dribbble.com/users/2367833/screenshots/7816190/media/b1aaf5c98510012b56422d1619dc62e8.gif" alt="" />
                     <Card.Text>Status: {book.status}</Card.Text>
                     <div className="d-flex justify-content-between">
                       <Link to={`/edit/${book.id}`}>
