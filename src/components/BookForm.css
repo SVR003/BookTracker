@@ -1,0 +1,23 @@
+.book-form-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-form-container h2 {
+    color: #c90808;
+  }
+  
+  .book-form-container .btn {
+    min-width: 120px;
+  }
+  
+  .book-form-container .btn-secondary {
+    background-color: #3b2e2e;
+  }
+  
+  .book-form-container .alert {
+    margin-bottom: 20px;
+  }
+  
